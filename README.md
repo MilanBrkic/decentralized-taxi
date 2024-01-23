@@ -37,11 +37,14 @@ This app has been created as part of my final thesis for my master's degree. It 
 ## Tech specs
 
 ### Architecture
-![App architecture](https://github.com/MilanBrkic/decentralized-taxi/blob/main/High_level_architecture.png)
+<img src="https://github.com/MilanBrkic/decentralized-taxi/blob/main/High_level_architecture.png" alt="App architecture" width="600"/>
+
 ### DB data model
-![Data model](https://github.com/MilanBrkic/decentralized-taxi/blob/main/Db_data_model.png)
+<img src="https://github.com/MilanBrkic/decentralized-taxi/blob/main/Db_data_model.png" alt="Data model" width="600"/>
+
 ### Payment table
-![Payment table](https://github.com/MilanBrkic/decentralized-taxi/blob/main/table_of_payments.png)
+<img src="https://github.com/MilanBrkic/decentralized-taxi/blob/main/table_of_payments.png" alt="Payment table" width="600"/>
+
 The payment table tells us all the possible outcomes of the ride. These are the representations of the columns:
 - "Driver" - did he confirm he arrived with the passenger at the end destination?;
 - "Passenger" - did he confirm he arrived at the end destination?;
