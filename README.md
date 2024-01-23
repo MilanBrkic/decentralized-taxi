@@ -34,5 +34,11 @@ This app has been created as part of my final thesis for my master's degree. It 
 - Done in React Native
 - Using Google Maps API for mapping coordinates to address names and vice versa
 
-## App architecure
-![App architecture]()
+## Tech specs
+
+### Architecture
+![App architecture](https://github.com/MilanBrkic/decentralized-taxi/blob/main/High_level_architecture.png)
+### DB data model
+![Data model](https://github.com/MilanBrkic/decentralized-taxi/blob/main/Db_data_model.png)
+### Payment table
+![Payment table](https://github.com/MilanBrkic/decentralized-taxi/blob/main/table_of_payments.png)
