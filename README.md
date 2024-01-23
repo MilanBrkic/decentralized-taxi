@@ -42,3 +42,14 @@ This app has been created as part of my final thesis for my master's degree. It 
 ![Data model](https://github.com/MilanBrkic/decentralized-taxi/blob/main/Db_data_model.png)
 ### Payment table
 ![Payment table](https://github.com/MilanBrkic/decentralized-taxi/blob/main/table_of_payments.png)
+The payment table tells us all the possible outcomes of the ride. These are the representations of the columns:
+- "Driver" - did he confirm he arrived with the passenger at the end destination?;
+- "Passenger" - did he confirm he arrived at the end destination?;
+- "Driver arrived" - did the driver REALLY arrive at the end destination? (Admin checks this);
+- "Passenger arrived" - did the passenger REALLY arrive at the end destination? (Admin checks this);
+
+So depending on the boolean value of the above columns, payment is determined by the next variables:
+- v: represents the value or price of the ride
+- d: represents a deposit that both participants need to pay before the ride. Mostly some percent of the v variable.
+
+The participant that has not cooperated and is dishonest, will lose the deposit value.
